@@ -1,0 +1,160 @@
+@import './app.scss';
+.ourWork{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+    
+  
+}
+.ourWork-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 0px;
+ 
+    // background-color: #2f445429;
+}
+.ourWork-masters{
+    width: 100%;
+    max-width: 670px;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.masters-container{
+    margin-top: 50px;
+    width: 100%;
+    // border: 1px solid;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+    
+}
+.masters-card{
+    width: 100%;
+    max-width: 300px;
+    height: 400px;
+    background-color: $pink;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: flex-start;
+    justify-content: flex-end;
+    padding: 10px;
+    box-shadow:0 0 8px 0 rgb(11 29 38 / 56%);
+    transform: translateX(-30%);
+    opacity: 0;
+    transition: all 1s ease 0.1s;
+    h6{
+        padding: 5px 0;
+        color: $darkgreen;
+        font-weight: 400;
+    }
+    p{
+        color: $darkgreen;
+        font-size: 14px;
+        font-weight: 200;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+   &.active{
+       transform: translateX(0);
+       opacity: 1;
+   }
+
+}
+.masters-card__img{
+    width: 100%;
+    max-width: 300px;
+    height: 380px;
+    position: absolute;
+    overflow: hidden;
+    top: -50px;
+    left: 20px;
+    cursor: pointer;
+    transform: scale(0);
+    opacity: 0;
+    transition: all 1s ease 0.3s;
+    img{
+        width: 100%;
+        height: 100%;
+    }
+    &:hover{
+        .description{
+            transform: translateY(-100%);
+            transition: all 1s;
+            opacity: 1;
+        }
+    }
+    &.active{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+.description{
+   width: 100%;
+   max-width: 300px;
+   height: 390px;
+   background: #1c3334e8;
+   transform: translateY(-0%);
+   transition: all 1s;
+   opacity: 0;
+   padding: 30px 20px;
+   p{
+       color: #b1b0b0;
+       font-size: 14px;
+       font-weight: 100;
+       padding: 7px 0;
+       line-height: 1.2;
+       font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   }
+ 
+}
+.ourWork-title{
+    width: 100%;
+    max-width: 670px;
+    text-align: center;
+    color: $darkgreen;
+    h2{
+        padding: 30px 0;
+    }
+    p{
+        color: #1c33349c;
+        line-height: 1.5;
+        padding: 0 10px;
+        b{
+          color: $pink;
+          font-weight: lighter;
+        }
+    }
+
+}
+.ourWork-slide{
+    width: 100%;
+    padding: 40px 0;
+    background-color: transparent;
+    transform: scale(0.8);
+    opacity: 0;
+    transition: all 2s;
+    &.active{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@media screen and(max-width:670px) {
+    .masters-container{
+       flex-direction: column;
+       align-items: center;
+        
+    }
+    .masters-card{
+        margin: 40px 0;
+    }
+    
+}

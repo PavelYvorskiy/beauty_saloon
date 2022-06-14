@@ -1,0 +1,75 @@
+.contacts {
+  width: 100%;
+  min-height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.contacts-container {
+  width: 100%;
+  max-width: 1070px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 20px;
+}
+
+.contacts-title {
+  width: 100%;
+  max-width: 670px;
+  text-align: center;
+  color: #1c3334;
+}
+.contacts-title h2 {
+  padding: 30px 0;
+}
+.contacts-title p {
+  color: rgba(28, 51, 52, 0.6117647059);
+  line-height: 1.5;
+  padding: 0 10px;
+}
+
+.contacts-location {
+  width: 100%;
+  max-width: 470px;
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px 0;
+}
+.contacts-location__item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+  margin: 10px 0;
+}
+.contacts-location__title {
+  display: flex;
+  width: 100%;
+  max-width: 360px;
+  align-items: flex-end;
+}
+.contacts-location__title h3 {
+  padding-left: 10px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.contacts-location__title h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  padding-left: 10px;
+  font-weight: 500;
+}
+.contacts-location__description {
+  padding: 10px 40px;
+}
+.contacts-location__description h4 {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.contacts-location__description a h4 {
+  color: #1c3334;
+}
+
+/*# sourceMappingURL=contacts.css.map */

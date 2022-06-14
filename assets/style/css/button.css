@@ -1,0 +1,42 @@
+.button {
+  background: linear-gradient(267.26deg, #2e151b -211.12%, #da7b93);
+  box-sizing: border-box;
+  color: #fff;
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 19px;
+  transition: 0.4s;
+  width: fit-content;
+  position: relative;
+  padding: 7px 10px;
+  box-shadow: 0 0 4px 0 rgba(47, 68, 84, 0.5607843137);
+}
+.button span {
+  position: relative;
+  z-index: 2;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.button::after {
+  background: linear-gradient(267.26deg, #da7b93 21.05%, #2e151b 211.12%);
+  box-shadow: 0 0 4px 0 rgba(47, 68, 84, 0.5607843137);
+  bottom: 0;
+  content: "";
+  height: 100%;
+  left: 0;
+  margin: auto;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.5s;
+  width: 100%;
+  z-index: 1;
+}
+.button:hover::after {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+/*# sourceMappingURL=button.css.map */
