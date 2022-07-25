@@ -16,22 +16,27 @@
 
 
 .header{
-    background:$darkgray;
-     display: none;
+    // background:$darkgray;
+    //  display: none;
+     background: rgb(34 57 63);
+     width: 100%;
+     position: fixed;
+     display: block;
+     z-index: 3;
 }
-.headhesive{
-    background: linear-gradient($darkgray, $darkgreen),rgb(11 29 38 / 80%);
-    width: 100%;
-    position: fixed;
-    display: block;
-    transform: translateY(-110%);
-    transition: all 1s;
-    z-index: 3;
-}
-.headhesive--stick{
-    transform: translateY(0);
-    transition: all 1s;
-}
+// .headhesive{
+// //     background: rgb(34 57 63);
+// //     width: 100%;
+// //     position: fixed;
+// //     display: block;
+// //     transform: translateY(-110%);
+// //     transition: all 1s;
+// //     z-index: 3;
+// // }
+// // .headhesive--stick{
+// //     transform: translateY(0);
+// //     transition: all 1s;
+// // }
 
 //navmenu
 .logo{
@@ -61,11 +66,19 @@
         display: flex;
       //  flex-direction: column;
         position: relative;
+        &_sub{
+          &:hover{
+            .sub-menu{
+              display: block;
+            }
+          }
+        }
     }
     &__link{
         color: #f1f1f1;
         position: relative;
         font-weight: 300;
+        cursor: pointer;
         &_lan{
           padding: 0 4px;
           text-transform: uppercase;
@@ -93,6 +106,9 @@
        
          &.active{
              color: $pink;
+         }
+         &:hover{
+          color: $pink;
          }
       
     }
@@ -133,6 +149,59 @@
     align-items: center;
     padding: 50px 0;
 }
+.mob-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sub-menu{
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 15px;
+  padding: 20px 10px 10px;
+  background: rgb(34 57 63);
+  min-width: 250px;
+  &__items{
+    padding: 8px 0;
+    &:hover{
+      .sub-menu{
+        &__link{
+          color: $pink;
+        }
+      }
+    }
+  }
+  &__link{
+    color: #f1f1f1;
+    padding: 5px 0;
+    font-weight: 100;
+  }
+}
+.sub-menu-mob{
+  position: relative;
+  background-color: transparent;
+  &__item{
+    padding: 5px 0;
+    text-align: center;
+    &:hover{
+      .sub-menu{
+        &__link{
+          color: $pink;
+        }
+      }
+    }
+  }
+  &__link{
+    color: #f1f1f1;
+    padding: 5px 0;
+    font-weight: 100;
+  }
+
+}
+.mob-link{
+  color: $pink;
+}
 
 @media (max-width: 886px){
   .navbar{
@@ -141,7 +210,7 @@
     .navmenu{
         display: none;
         &__item{
-            padding: 20px 0;
+            padding: 10px 0;
         }
     }
     .navbar-mob{

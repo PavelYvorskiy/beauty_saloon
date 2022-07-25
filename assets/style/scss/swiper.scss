@@ -2,6 +2,9 @@
     width: 100%;
     height: 100%;
   }
+  .swiper-wrapper-reviews{
+    padding: 40px 0;
+  }
 
   .swiper-slide {
     text-align: center;
@@ -29,3 +32,40 @@
     height: 100%;
     object-fit: cover;
   }
+  .swiper-slide{
+    position: relative;
+    &__back{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+      height: 100%;
+      background: url(../../img/peeling/slajder1.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      
+    }
+  }
+  .swiper-pagination-bullet-active{
+    background-color: #da7b93;
+    transform: scale(1.4);
+  }
+  .swiper-button-prev,
+  .swiper-button-next{
+   color: #da7b93;
+   transition: all 0.5s;
+   &::after{
+    font-size: 24px;
+   }
+   &:hover{
+    transform: scale(1.3);
+    transition: all 0.5s;
+   }
+  }
+@media screen and(max-width:870px) {
+  .swiper-slide{
+    &__back{
+      background-position: center;
+    }
+  }
+}

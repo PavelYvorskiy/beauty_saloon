@@ -4,7 +4,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 0px;
     
   
 }
@@ -13,7 +12,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 30px 0px;
  
     // background-color: #2f445429;
 }
@@ -85,7 +83,7 @@
         height: 100%;
     }
     &:hover{
-        .description{
+        .descriptionBlock{
             transform: translateY(-100%);
             transition: all 1s;
             opacity: 1;
@@ -96,7 +94,7 @@
         opacity: 1;
     }
 }
-.description{
+.descriptionBlock{
    width: 100%;
    max-width: 300px;
    height: 390px;
@@ -126,7 +124,7 @@
     p{
         color: #1c33349c;
         line-height: 1.5;
-        padding: 0 10px;
+        padding: 20px 10px;
         b{
           color: $pink;
           font-weight: lighter;

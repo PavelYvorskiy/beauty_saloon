@@ -32,12 +32,14 @@
 
 .contacts-location {
   width: 100%;
-  max-width: 470px;
-  min-height: 300px;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 30px 0;
+  flex-shrink: 1;
+  justify-content: center;
+}
+.contacts-location__block {
+  width: 100%;
+  max-width: 600px;
+  position: relative;
 }
 .contacts-location__item {
   display: flex;
@@ -70,6 +72,17 @@
 }
 .contacts-location__description a h4 {
   color: #1c3334;
+}
+
+@media screen and (max-width: 740px) {
+  .contacts-location {
+    max-width: 500px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .contacts-location__block {
+    margin-bottom: 50px;
+  }
 }
 
 /*# sourceMappingURL=contacts.css.map */

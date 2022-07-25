@@ -1,0 +1,40 @@
+.description {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px 20px;
+}
+
+.description-container {
+  width: 100%;
+  max-width: 1070px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.description-content {
+  max-width: 870px;
+}
+.description-content h2 {
+  color: #1c3334;
+  text-align: center;
+  line-height: 1.5;
+}
+.description-content h2 b {
+  color: #da7b93;
+}
+.description-content p {
+  color: #929292;
+  padding: 10px 0;
+  line-height: 1.5;
+  font-weight: 200;
+  text-align: center;
+}
+.description-content p b {
+  color: #da7b93;
+}
+
+/*# sourceMappingURL=descriptionSection.css.map */

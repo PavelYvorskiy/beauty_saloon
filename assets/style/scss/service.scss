@@ -144,6 +144,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
     &_1{
         grid-column: 1/4;
         grid-row: 1/5;
@@ -199,6 +201,111 @@
             opacity: 1;
         }
     }
+    &_5{
+        background:url(../../img/peeling/advantages_2.jpg);
+        background-size: cover;
+        background-position: center;
+        grid-column: 4/6;
+        grid-row: 1/5;
+        transform: translateY(-50%);
+        opacity: 0;
+        transition: all 0.5s ease 0.6s;
+        &.active{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+    &_6{
+        grid-column: 1/3;
+        grid-row: 5/9;
+        background: url(../../img/peeling/sale_1.jpg);
+        background-size: cover;
+        background-position: center;
+        transform: translateY(10%);
+        transition: all 0.5s ease 0.6s;
+        opacity: 0;
+        &.active{
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    &_7{
+        grid-column: 3/6;
+        grid-row: 5/9;
+        background: $darkgreen;
+        transform: translateX(50%);
+        opacity: 0;
+        transition: all 0.5s ease 0.3s;
+        &.active{
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+    &_8{
+        background: url(../../img/cleaning/12140148.091244.53.jpeg);
+        background-size: cover;
+        background-position: center;
+        grid-column: 4/6;
+        grid-row: 1/5;
+        transform: translateY(-50%);
+        opacity: 0;
+        transition: all 0.5s ease 0.6s;
+        &.active{
+            transform: translateY(0);
+            opacity: 1;
+        }
+    }
+        &_9{
+            grid-column: 1/3;
+            grid-row: 5/9;
+            background: url(../../img/cleaning/prepare_3.jpg);
+            background-size: cover;
+            background-position: center;
+            transform: translateY(10%);
+            transition: all 0.5s ease 0.6s;
+            opacity: 0;
+            &.active{
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        &_10{
+            background: url(../../img/botocs/bikini_testimony_585_2-560x502.jpg);
+            background-size: cover;
+            background-position: center;
+            grid-column: 4/6;
+            grid-row: 1/5;
+            transform: translateY(-50%);
+            opacity: 0;
+            transition: all 0.5s ease 0.6s;
+            &.active{
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+            &_11{
+                grid-column: 1/3;
+                grid-row: 5/9;
+                background: url(../../img/botocs/rezult_20.jpg);
+                background-size: cover;
+                background-position: center;
+                transform: translateY(10%);
+                transition: all 0.5s ease 0.6s;
+                opacity: 0;
+                &.active{
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+    
+    &:hover{
+        .block-service-text{
+            &__black{
+                transform: translateY(0);
+                transition: all 1s;
+            }
+        }
+    }
 }
 .block-text{
     width: 100%;
@@ -208,19 +315,23 @@
     align-items: flex-start;
     justify-content: center;
     padding: 20px 30px;
+    
     &__title{
-        padding: 20px 0;
+        padding: 10px 0;
         color: $pink;
         letter-spacing: 2px;
         border-bottom: 2px solid $pink;
     }
     &__text{
-        padding: 20px 0;
+        padding: 5px 0;
         line-height: 1.5;
         color: rgba(255, 255, 255, 0.799);
         b{
             color: $pink;
         }
+    }
+    &__navigation{
+        padding: 10px 0;
     }
 }
 .block-service-text{
@@ -229,11 +340,28 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    justify-content: flex-end;
+    justify-content: center;
     padding: 20px 30px;
     color: rgba(255, 255, 255, 0.819);
+    &__black{
+        background:#1c3334ef;
+        transform: translateY(100%);
+        align-items: center;
+        justify-content: center;
+        transition: all 1s;
+        &_active{
+            transform: translateY(0);
+        }
+    }
     &__title{
         padding: 20px 0;
+        text-align: start;
+        line-height: 1.5;
+        &_pink{
+          h4{
+            color: $pink;
+          }
+        }
     }
     &__text{
         max-width: 400px;
@@ -263,6 +391,46 @@
         &_4{
             grid-column: 1;
             grid-row: 10/13;
+        }
+        &_5{
+            grid-column: 1;
+            grid-row: 4/7;
+        }
+        &_6{
+            grid-column: 1;
+            grid-row: 10/13;
+           
+        }
+        &_7{
+            grid-column: 1;
+            grid-row: 7/10;
+        }
+        &_8{
+            grid-column: 1;
+            grid-row: 4/7;
+        }
+        &_9{
+            grid-column: 1;
+            grid-row: 10/13;
+        }
+        &_10{
+            grid-column: 1;
+            grid-row: 4/7;
+        }
+        &_11{
+            grid-column: 1;
+            grid-row: 10/13;
+        }
+    }
+    .block-text{
+        &__text{
+            padding: 3px 0;
+         
+        }
+    }
+    .block-service-text{
+        &__title{
+            padding: 8px 0;
         }
     }
 }

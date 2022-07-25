@@ -1,39 +1,101 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
-    <link rel="stylesheet" href="./assets/style/css/swiper.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./assets/style/css/swiper.css" />
 
-    <link rel="stylesheet" href="./assets/style/css/base.css"/>
-    <link rel="stylesheet" href="./assets/style/css/button.css"/>
-    <link rel="stylesheet" href="./assets/style/css/header.css"/>
-    <link rel="stylesheet" href="./assets/style/css/contentForm.css"/>
-    <link rel="stylesheet" href="./assets/style/css/main.css"/>
-    <link rel="stylesheet" href="./assets/style/css/service.css"/>
-    <link rel="stylesheet" href="./assets/style/css/price.css"/>
-    <link rel="stylesheet" href="./assets/style/css/ourWork.css"/>
-    <link rel="stylesheet" href="./assets/style/css/contacts.css"/>
-    <link rel="stylesheet" href="./assets/style/css/footer.css"/>
+    <link rel="stylesheet" href="./assets/style/css/base.css" />
+    <link rel="stylesheet" href="./assets/style/css/header.css" />
+    <link rel="stylesheet" href="./assets/style/css/footer.css" />
+    <link rel="stylesheet" href="./assets/style/css/main.css" />
+    <link rel="stylesheet" href="./assets/style/css/button.css" />
+    <link rel="stylesheet" href="./assets/style/css/firstSectionSlide.css" />
+    <link rel="stylesheet" href="./assets/style/css/descriptionSection.css" />
+    <link rel="stylesheet" href="./assets/style/css/price.css" />
+    <link rel="stylesheet" href="./assets/style/css/service.css" />
+    <link rel="stylesheet" href="./assets/style/css/gridSection.css" />
+    <link rel="stylesheet" href="./assets/style/css/productFlex.css" />
+    <link rel="stylesheet" href="./assets/style/css/parallaxBlock.css" />
+    <link rel="stylesheet" href="./assets/style/css/reviews.css" />
+    <link rel="stylesheet" href="./assets/style/css/contentForm.css" />
+    <link rel="stylesheet" href="./assets/style/css/drugs.css" />
 
     <title>Beauty Sallon</title>
 </head>
+
 <body>
-    <div class="content-form"><h1></h1></div>
+    <div class="content-form">
+        <div class="contacts-location__block">
+            <div class="productFlex-items productFlex-items_desc">
+                <div class="productFlex-items-container">
+                    <div class="productFlex-items-content _anim-items _anim-no-hide">
+                        <div class="button-closed">x</div>
+                        <div class="productFlex-items-content__text">
+                            <h5>
+                                Свяжитесь с нами
+                            </h5>
+                            <p>
+                                заполните форму и мы свяжимся с вами
+
+                            </p>
+                            <div class="border-decore"></div>
+                        </div>
+                        <form action="" class="form">
+                            <input type="text" class="input" placeholder="имя" required>
+                            <input type="tel" class="input" placeholder="tel" required>
+                            <input type="email" class="input" placeholder="mail" required>
+                            <button class="navmenu__formBtn button-form"><span>отправить</span></button>
+                        </form>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
     <header class="header">
         <div class="navbar">
-            <div class="logo">
-                <h2>I<b>Q</b>13</h2>
+            <div class="logo"><a href="">
+                    <h2>I<b>Q</b>13</h2>
+                </a>
+
             </div>
             <ul class="navmenu">
-                <li class="navmenu__item"><a href="#service" class="navmenu__link navmenu__link_menu">Услуги</a></li>
-                <li class="navmenu__item"><a href="#price" class="navmenu__link navmenu__link_menu">Цены</a></li>
-                <li class="navmenu__item"><a href="#ourWork" class="navmenu__link navmenu__link_menu">Наши работы</a></li>
-                <li class="navmenu__item"><a href="#contacts" class="navmenu__link navmenu__link_menu">Контакты</a></li>
-                <li class="navmenu__item"><a href="tel:+380930000000" class="navmenu__link navmenu__link_lan">+38 098 455 75 75</a></li>
+                <li class="navmenu__item navmenu__item_sub"><a class="navmenu__link navmenu__link_menu">Услуги</a>
+                    <ul class="sub-menu">
+                        <li class="sub-menu__items"><a href="./peeling.html" class="sub-menu__link">Пилинги</a></li>
+                        <li class="sub-menu__items"><a href="./cleaning.html" class="sub-menu__link">Чистки</a></li>
+                        <li class="sub-menu__items"><a href="./botulinoterapiya.html"
+                                class="sub-menu__link">Ботулинотерапия</a></li>
+                        <li class="sub-menu__items"><a href="./gipergidroza.html" class="sub-menu__link">Лечение
+                                гипергидроза подмышек</a>
+                        </li>
+                        <li class="sub-menu__items"><a href="./konturnayaPlastika.html" class="sub-menu__link">Контурная
+                                пластика</a></li>
+                        <li class="sub-menu__items"><a href="./biorevitalizatsiya.html"
+                                class="sub-menu__link">Биоревитализация</a></li>
+                        <li class="sub-menu__items"><a href="./mezoterapiya.html" class="sub-menu__link">Мезотерапия</a>
+                        </li>
+                        <li class="sub-menu__items"><a href="./bioreparatsiya.html"
+                                class="sub-menu__link">Биорепарация</a></li>
+                        <li class="sub-menu__items"><a href="./lipomodelirovanie.html"
+                                class="sub-menu__link">Липолитическая терапия</a></li>
+                    </ul>
+                </li>
+                <li class="navmenu__item"><a href="./price.html" class="navmenu__link navmenu__link_menu">Цены</a></li>
+                <li class="navmenu__item"><a href="./ourWork.html" class="navmenu__link navmenu__link_menu">Наши
+                        работы</a>
+                </li>
+                <li class="navmenu__item"><a href="./contacts.html"
+                        class="navmenu__link navmenu__link_menu">Контакты</a></li>
+                <li class="navmenu__item"><a href="tel:+380930000000" class="navmenu__link navmenu__link_lan">+38 098
+                        455 75 75</a></li>
                 <li class="navmenu__item"><button class="navmenu__formBtn button"><span>Записаться</span></button></li>
                 <li class="navmenu__item">
                     <a href="#" class="navmenu__link navmenu__link_lan">рус</a>
@@ -45,38 +107,76 @@
             </div>
         </div>
         <div class="navbar-mob">
-         <ul class="navmenu-mob">
-             <li class="navmenu__item mob-item"><a href="#service" class="navmenu__link navmenu__link_menu">Услуги</a></li>
-             <li class="navmenu__item mob-item"><a href="#price" class="navmenu__link navmenu__link_menu">Цены</a></li>
-             <li class="navmenu__item mob-item"><a href="#ourWork" class="navmenu__link navmenu__link_menu">Наши работы</a></li>
-             <li class="navmenu__item mob-item"><a href="#contacts" class="navmenu__link navmenu__link_menu">Контакты</a></li>
-             <li class="navmenu__item mob-item"><a href="tel:+380930000000" class="navmenu__link navmenu__link_lan">+38 098 455 75 75</a></li>
-             <li class="navmenu__item"><button class="navmenu__formBtn button"><span>Записаться</span></button></li>
-             <li class="navmenu__item">
-                 <a href="#" class="navmenu__link navmenu__link_lan">рус</a>
-                 <a href="#" class="navmenu__link navmenu__link_lan">укр</a>
-             </li>
-             
-         </ul>
+            <ul class="navmenu-mob">
+                <li class="navmenu__item mob-item">
+                    <ul class="sub-menu-mob">
+                        <li class="sub-menu-mob__item"><a href="./peeling.html" class="sub-menu-mob__link">Пилинги</a>
+                        </li>
+                        <li class="sub-menu-mob__item"><a href="./cleaning.html" class="sub-menu-mob__link">Чистки</a>
+                        </li>
+                        <li class="sub-menu-mob__item"><a href="./botulinoterapiya.html"
+                                class="sub-menu-mob__link">Ботулинотерапия</a></li>
+                        <li class="sub-menu-mob__item"><a href="./gipergidroza.html" class="sub-menu-mob__link">Лечение
+                                гипергидроза
+                                подмышек</a></li>
+                        <li class="sub-menu-mob__item"><a href="./konturnayaPlastika.html"
+                                class="sub-menu-mob__link">Контурная пластика</a></li>
+                        <li class="sub-menu-mob__item"><a href="./biorevitalizatsiya.html"
+                                class="sub-menu-mob__link">Биоревитализация</a></li>
+                        <li class="sub-menu-mob__item"><a href="./mezoterapiya.html"
+                                class="sub-menu-mob__link">Мезотерапия</a></li>
+                        <li class="sub-menu-mob__item"><a href="./bioreparatsiya.html"
+                                class="sub-menu-mob__link">Биорепарация</a></li>
+                        <li class="sub-menu-mob__item"><a href="./lipomodelirovanie.html"
+                                class="sub-menu-mob__link">Липолитическая терапия</a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="navmenu__item mob-item"><a href="./price.html"
+                        class="navmenu__link navmenu__link_menu mob-link">Цены</a>
+                </li>
+                <li class="navmenu__item mob-item"><a href="./ourWork.html"
+                        class="navmenu__link navmenu__link_menu mob-link">Наши
+                        работы</a></li>
+                <li class="navmenu__item mob-item"><a href="./contacts.html"
+                        class="navmenu__link navmenu__link_menu mob-link">Контакты</a></li>
+                <li class="navmenu__item mob-item"><a href="tel:+380930000000"
+                        class="navmenu__link navmenu__link_lan">+38 098 455 75 75</a></li>
+                <li class="navmenu__item"><button class="navmenu__formBtn button"><span>Записаться</span></button></li>
+                <li class="navmenu__item">
+                    <a href="#" class="navmenu__link navmenu__link_lan">рус</a>
+                    <a href="#" class="navmenu__link navmenu__link_lan">укр</a>
+                </li>
+
+            </ul>
         </div>
     </header>
 
 
     <main class="main">
-        <section id="service" class="service">
-            <div class="servise-container _anim-items _anim-no-hide"> 
+        <section class="service">
+            <div class="servise-container _anim-items _anim-no-hide">
                 <div class="service-content _anim-items _anim-no-hide">
                     <div class="service-block">
-                        <div class="service-block__subtitle _anim-items _anim-no-hide"><h3>Салон красоты волос</h3></div>
-                        <div class="service-block__title _anim-items _anim-no-hide"><h1>i<b>q</b>13</h1></div>
-                        <div class="service-block__text _anim-items _anim-no-hide"><p>Ваши волосы - наше произведение искусства.</p></div>
+                        <div class="service-block__subtitle _anim-items _anim-no-hide">
+                            <h3>Салон красоты волос</h3>
+                        </div>
+                        <div class="service-block__title _anim-items _anim-no-hide">
+                            <h1>i<b>q</b>13</h1>
+                        </div>
+                        <div class="service-block__text _anim-items _anim-no-hide">
+                            <p>Ваши волосы - наше произведение искусства.</p>
+                        </div>
                         <div class="service-block__navigation">
                             <button class="service-block__btn button"><span>Записаться</span></button>
                         </div>
                         <div class="service-block__icons">
-                            <div class="service-block__icon _anim-items _anim-no-hide"><img src="./assets/svg/startBlock/014-instagram_1.svg" alt=""></div>
-                            <div class="service-block__icon _anim-items _anim-no-hide"><img src="./assets/svg/startBlock/facebook.svg" alt=""></div>
-                            <div class="service-block__icon _anim-items _anim-no-hide"><img src="./assets/svg/startBlock/018-youtube_1.svg" alt=""></div>
+                            <div class="service-block__icon _anim-items _anim-no-hide"><img
+                                    src="./assets/svg/startBlock/014-instagram_1.svg" alt=""></div>
+                            <div class="service-block__icon _anim-items _anim-no-hide"><img
+                                    src="./assets/svg/startBlock/facebook.svg" alt=""></div>
+                            <div class="service-block__icon _anim-items _anim-no-hide"><img
+                                    src="./assets/svg/startBlock/018-youtube_1.svg" alt=""></div>
                         </div>
                     </div>
                 </div>
@@ -88,23 +188,26 @@
                             <h2>Услуги салона</h2>
                         </div>
                         <div class="block-text__text">
-                            <p>I<b>Q</b> 13 – это салон, где время пролетает незаметно, но результат после заметен всем. От нас не хочется уходить...ну разве что для того, чтобы собрать комплименты от окружающих по поводу нового образа, и вернуться. </p>
+                            <p>I<b>Q</b> 13 – это салон, где время пролетает незаметно, но результат после заметен всем.
+                                От нас не хочется уходить...ну разве что для того, чтобы собрать комплименты от
+                                окружающих по поводу нового образа, и вернуться. </p>
                         </div>
                     </div>
                 </div>
                 <div class="block block_2 _anim-items _anim-no-hide">
-                   <div class="block-service-text">
-                       <div class="block-service-text__title">
-                           <h4>
-                            Парикмахерские услуги
-                           </h4>
+                    <div class="block-service-text">
+                        <div class="block-service-text__title">
+                            <h4>
+                                Парикмахерские услуги
+                            </h4>
                         </div>
-                       <div class="block-service-text__text">
-                           <p>
-                            Мы для Вас - если нужна профессионально выполненная стрижка любой сложности; элегантная, вечерняя или любая другая укладка; окрашивание в различных техниках, и многое другое.
-                           </p>
+                        <div class="block-service-text__text">
+                            <p>
+                                Мы для Вас - если нужна профессионально выполненная стрижка любой сложности; элегантная,
+                                вечерняя или любая другая укладка; окрашивание в различных техниках, и многое другое.
+                            </p>
                         </div>
-                   </div>
+                    </div>
                 </div>
                 <div class="block block_3 _anim-items _anim-no-hide">
                     <div class="block-service-text">
@@ -112,12 +215,14 @@
                             <h4>
                                 Парикмахерские услуги на клиентах с изделиями
                             </h4>
-                         </div>
+                        </div>
                         <div class="block-service-text__text">
                             <p>
-                                Также мы выполняем различные техники дополнения объема к своим волосам, при этом полностью сохраняя естественный вид, например: голливудское наращивание, приклеивание и пришивание накладок и систем.
-                           </p>
-                         </div>
+                                Также мы выполняем различные техники дополнения объема к своим волосам, при этом
+                                полностью сохраняя естественный вид, например: голливудское наращивание, приклеивание и
+                                пришивание накладок и систем.
+                            </p>
+                        </div>
                     </div>
                 </div>
                 <div class="block block_4 _anim-items _anim-no-hide">
@@ -126,265 +231,57 @@
                             <h4>
                                 Парикмахерские услуги на изделиях
                             </h4>
-                         </div>
+                        </div>
                         <div class="block-service-text__text">
                             <p>
-                                В нашем салоне, любой парик, система или накладка, может заиграть новыми красками, и в прямом и переносном смысле. Окрашивание, стрижки, укладки париков, систем и накладок, а также прядочек и шиньонов – все эти услуги представлены в салоне I<b>Q</b> 13.
+                                В нашем салоне, любой парик, система или накладка, может заиграть новыми красками, и в
+                                прямом и переносном смысле. Окрашивание, стрижки, укладки париков, систем и накладок, а
+                                также прядочек и шиньонов – все эти услуги представлены в салоне I<b>Q</b> 13.
                             </p>
-                         </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section id="price" class="price">
-            <div class="price-container">
-                <div class="price-box">
-                    <div class="price-container-title _anim-items _anim-no-hide">
-                        <h2>Прайс</h2>
-                    </div>
-                    <div class="price-content _anim-items _anim-no-hide">
-                        <div class="price-content-items">
-                            <div class="price-content-items__nav">
-                                <h6>Укладка</h6>
-                                <div class="price-btn"></div>
-                            </div>
-                            <ul class="price-content-items__menu">
-                                <li class="black"><h6>Стилист</h6></li>
-                                <li><h5>Укладка ровных волос на браш:</h5> <h6>450 грн</h6></li>
-                                <li><h5>Укладка-накрутка на браш, утюжок или плойку:</h5> <h6>550 грн</h6></li>
-                                <li><h5>Плетение:</h5> <h6>500 грн</h6></li>
-                                <li><h5>Укладка наращенных волос:</h5> <h6>700 грн</h6></li>
-                                <li><h5>Вечерняя прическа или для особых случаев:</h5> <h6>1100 грн</h6></li>
-                                <li><h5>Афрокудры (средняя длина):</h5> <h6>900 грн</h6></li>
-                                <li><h5>Афро-кудри (длинные волосы):</h5> <h6>1100 грн</h6></li>
-
-                                <li class="black"><h6>Топ стилист</h6></li>
-                                <li><h5>Укладка ровных волос на браш:</h5> <h6>550 грн</h6></li>
-                                <li><h5>Укладка-накрутка на браш, утюжок или плойку:</h5> <h6>650 грн</h6></li>
-                                <li><h5>Плетение:</h5> <h6>600 грн</h6></li>
-                                <li><h5>Укладка наращенных волос:</h5> <h6>800 грн</h6></li>
-                                <li><h5>Вечерняя прическа или для особых случаев:</h5> <h6>1300 грн</h6></li>
-                                <li><h5>Афрокудры (средняя длина):</h5> <h6>1100 грн</h6></li>
-                                <li><h5>Афро-кудри (длинные волосы):</h5> <h6>1300 грн</h6></li>
-
-                                <li class="black"><h6>Арт стилист</h6></li>
-                                <li><h5>Укладка ровных волос на браш:</h5> <h6>650 грн</h6></li>
-                                <li><h5>Укладка-накрутка на браш, утюжок или плойку:</h5> <h6>750 грн</h6></li>
-                                <li><h5>Плетение:</h5> <h6>700 грн</h6></li>
-                                <li><h5>Укладка наращенных волос:</h5> <h6>1000 грн</h6></li>
-                                <li><h5>Вечерняя прическа или для особых случаев:</h5> <h6>1500 грн</h6></li>
-                                <li><h5>Афрокудры (средняя длина):</h5> <h6>1300 грн</h6></li>
-                                <li><h5>Афро-кудри (длинные волосы):</h5> <h6>1500 грн</h6></li>
-                            </ul>
-                        </div>
-                        <div class="price-content-items">
-                            <div class="price-content-items__nav">
-                                <h6>Стрижки</h6>
-                                <div class="price-btn"></div>
-                            </div>
-                            <ul class="price-content-items__menu">
-                                <li class="black"><h6>Стилист</h6></li>
-                                <li><h5>Женская/мужская стрижка:</h5> <h6>650 грн</h6></li>
-                                <li><h5>Стрижка бороды:</h5> <h6>300 грн</h6></li>
-                                <li><h5>Детская стрижка (до 7 лет):</h5> <h6>275 грн</h6></li>
-
-                                <li class="black"><h6>Топ стилист</h6></li>
-                                <li><h5>Женская/мужская стрижка:</h5> <h6>900 грн</h6></li>
-                                <li><h5>Стрижка бороды:</h5> <h6>450 грн</h6></li>
-                                <li><h5>Детская стрижка (до 7 лет):</h5> <h6>500 грн</h6></li>
-
-                                <li class="black"><h6>Арт стилист</h6></li>
-                                <li><h5>Женская/мужская стрижка:</h5> <h6>1200 грн</h6></li>
-                                <li><h5>Стрижка бороды:</h5> <h6>550 грн</h6></li>
-                                <li><h5>Детская стрижка (до 7 лет):</h5> <h6>550 грн</h6></li>
-
-                            
-                            </ul>
-                        </div>
-                        <div class="price-content-items">
-                            <div class="price-content-items__nav">
-                                <h6>Окрашивание волос</h6>
-                                <div class="price-btn"></div>
-                            </div>
-                            <ul class="price-content-items__menu">
-                                <li class="black"><h6>Стилист</h6></li>
-                                <li><h5>Тон в тон:</h5> <h6>1150 грн</h6></li>
-                                <li><h5>Блонд и тон (освещение корней и тонировка):</h5> <h6>1350 грн</h6></li>
-                                <li><h5>Сложные техники окрашивания (балаяж, шатуш, омбре, мелирование):</h5> <h6>2400 грн</h6></li>
-                                <li><h5>Изменение цвета/выход из черного/air-touch (при предварительной консультации):</h5> <h6>3900 грн</h6></li>
-
-                                <li class="black"><h6>Топ стилист</h6></li>
-                                <li><h5>Тон в тон:</h5> <h6>1200 грн</h6></li>
-                                <li><h5>Блонд и тон (освещение корней и тонировка):</h5> <h6>1600 грн</h6></li>
-                                <li><h5>Сложные техники окрашивания (балаяж, шатуш, омбре, мелирование):</h5> <h6>2900 грн</h6></li>
-                                <li><h5>Изменение цвета/выход из черного/air-touch (при предварительной консультации):</h5> <h6>4900 грн</h6></li>
-
-                                <li class="black"><h6>Арт стилист</h6></li>
-                                <li><h5>Тон в тон:</h5> <h6>1350 грн</h6></li>
-                                <li><h5>Блонд и тон (освещение корней и тонировка):</h5> <h6>1900 грн</h6></li>
-                                <li><h5>Сложные техники окрашивания (балаяж, шатуш, омбре, мелирование):</h5> <h6>3400 грн</h6></li>
-                                <li><h5>Изменение цвета/выход из черного/air-touch (при предварительной консультации):</h5> <h6>5900 грн</h6></li>
-                            </ul>
-                        </div>
-                        <div class="price-content-items">
-                            <div class="price-content-items__nav">
-                                <h6>Восстановления и реконструкция волос</h6>
-                                <div class="price-btn"></div>
-                            </div>
-                            <ul class="price-content-items__menu">
-                                <li class="black"><h6>Стилист</h6></li>
-                                <li><h5>Маска OWAY:</h5> <h6>350 грн</h6></li>
-                                <li><h5>Натуральный пилинг кожи головы с OWAY:</h5> <h6>600 грн</h6></li>
-                                <li><h5>Ультразвуковое восстановление волос OWAY ( в стоимость ухода входит укладка ровных волос):</h5> <h6>2400 грн</h6></li>
-                                <li><h5>KeraTriplex ( в стоимость ухода входит укладка ровных волос):</h5> <h6>2100 грн</h6></li>
-                                <li><h5>KeraTriplex маска:</h5> <h6>800 грн</h6></li>
-                                <li><h5>HydraTriplex :</h5> <h6>800 грн</h6></li>
-                                <li><h5>REDKEN Acidic:</h5> <h6>700 грн</h6></li>
-                                <li><h5>MilkShake Moisture:</h5> <h6>350 грн</h6></li>
-                                <li><h5>MilkShake ампула Integrity:</h5> <h6>350 грн</h6></li>
-                                <li><h5>Olaplex:</h5> <h6>650 грн</h6></li>
-                                <li><h5>Olaplex 360º:</h5> <h6>900 грн</h6></li>
-                                <li><h5>Абсолютное счастье для волос LEBEL ( в стоимость ухода входит укладка ровных волос):</li>
-                                <li><h5>короткие волосы:</h5> <h6>1100 грн</h6></li>
-                                <li><h5>средняя длина:</h5> <h6>2100 грн</h6></li>
-                                <li><h5>длинные волосы:</h5> <h6>2600 грн</h6></li>
-                                <li><h5>очень длинные волосы (наращенные):</h5> <h6>3100 грн</h6></li>
-
-                                <li class="black"><h6>Топ стилист</h6></li>
-                                <li><h5>Маска OWAY:</h5> <h6>350 грн</h6></li>
-                                <li><h5>Натуральный пилинг кожи головы с OWAY:</h5> <h6>600 грн</h6></li>
-                                <li><h5>Ультразвуковое восстановление волос OWAY ( в стоимость ухода входит укладка ровных волос):</h5> <h6>2500 грн</h6></li>
-                                <li><h5>KeraTriplex ( в стоимость ухода входит укладка ровных волос):</h5> <h6>2400 грн</h6></li>
-                                <li><h5>KeraTriplex маска:</h5> <h6>800 грн</h6></li>
-                                <li><h5>HydraTriplex :</h5> <h6>800 грн</h6></li>
-                                <li><h5>REDKEN Acidic:</h5> <h6>700 грн</h6></li>
-                                <li><h5>MilkShake Moisture:</h5> <h6>350 грн</h6></li>
-                                <li><h5>MilkShake ампула Integrity:</h5> <h6>350 грн</h6></li>
-                                <li><h5>Olaplex:</h5> <h6>650 грн</h6></li>
-                                <li><h5>Olaplex 360º:</h5> <h6>900 грн</h6></li>
-                                <li><h5>Абсолютное счастье для волос LEBEL ( в стоимость ухода входит укладка ровных волос):</li>
-                                <li><h5>короткие волосы:</h5> <h6>1100 грн</h6></li>
-                                <li><h5>средняя длина:</h5> <h6>2100 грн</h6></li>
-                                <li><h5>длинные волосы:</h5> <h6>2600 грн</h6></li>
-                                <li><h5>очень длинные волосы (наращенные):</h5> <h6>3100 грн</h6></li>
-
-                                <li class="black"><h6>Арт стилист</h6></li>
-                                <li><h5>Маска OWAY:</h5> <h6>350 грн</h6></li>
-                                <li><h5>Натуральный пилинг кожи головы с OWAY:</h5> <h6>600 грн</h6></li>
-                                <li><h5>Ультразвуковое восстановление волос OWAY ( в стоимость ухода входит укладка ровных волос):</h5> <h6>2600 грн</h6></li>
-                                <li><h5>KeraTriplex ( в стоимость ухода входит укладка ровных волос):</h5> <h6>2600 грн</h6></li>
-                                <li><h5>KeraTriplex маска:</h5> <h6>800 грн</h6></li>
-                                <li><h5>HydraTriplex :</h5> <h6>800 грн</h6></li>
-                                <li><h5>REDKEN Acidic:</h5> <h6>700 грн</h6></li>
-                                <li><h5>MilkShake Moisture:</h5> <h6>350 грн</h6></li>
-                                <li><h5>MilkShake ампула Integrity:</h5> <h6>350 грн</h6></li>
-                                <li><h5>Olaplex:</h5> <h6>650 грн</h6></li>
-                                <li><h5>Olaplex 360º:</h5> <h6>900 грн</h6></li>
-                                <li><h5>Абсолютное счастье для волос LEBEL ( в стоимость ухода входит укладка ровных волос):</li>
-                                <li><h5>короткие волосы:</h5> <h6>1100 грн</h6></li>
-                                <li><h5>средняя длина:</h5> <h6>2100 грн</h6></li>
-                                <li><h5>длинные волосы:</h5> <h6>2600 грн</h6></li>
-                                <li><h5>очень длинные волосы (наращенные):</h5> <h6>3100 грн</h6></li>
-                            </ul>
-                        </div>
-                        <div class="price-content-items">
-                            <div class="price-content-items__nav">
-                                <h6>NAIL Услуги</h6>
-                                <div class="price-btn"></div>
-                            </div>
-                            <ul class="price-content-items__menu">
-                                <li class="black"><h6>Цена зависит от категории мастера: мастер / топ-мастер</h6></li>
-                                <li><h5>Маникюр классический/европейский/аппаратный:</h5> <h6>400 грн/500 грн</h6></li>
-                                <li><h5>Покрытие лаком:</h5> <h6>200грн/250 грн</h6></li>
-                                <li><h5>Покрытие гель-лаком:</h5> <h6>400 грн/500 грн</h6></li>
-                                <li><h5>Покрытие ногтей лаком Baehr с кальцием:</h5> <h6>150 грн/200 грн</h6></li>
-                                <li><h5>Покрытие гель-лаком френч:</h5> <h6>500 грн/650 грн</h6></li>
-                                <li><h5>Снятие гелевых ногтей перед покрытием :</h5> <h6>50 грн/100 грн</h6></li>
-                                <li><h5>Снятие гелевых ногтей без покрытия:</h5> <h6>100 грн/150 грн</h6></li>
-                                <li><h5>Ремонт одного ногтя с шелком:</h5> <h6>100 грн/100 грн</h6></li>
-                                <li><h5>Дизайн 1й уровень сложности:</h5> <h6>20 грн/40 грн</h6></li>
-                                <li><h5>Дизайн 2й уровень сложности:</h5> <h6>30 грн/60 грн</h6></li>
-                                <li><h5>Дизайн 3й уровень сложности:</h5> <h6>40 грн/100 грн</h6></li>
-                                <li><h5>Педикюр комбинированный/аппаратный:</h5> <h6>700 грн/800 грн</h6></li>
-                                <li><h5>Обработка стопы кератолитиком:</h5> <h6>250 грн/350 грн</h6></li>
-                                <li><h5>Медицинский педикюр(топ мастер):</h5> <h6>1100 грн</h6></li>
-                                <li><h5>Мужской маникюр:</h5> <h6>450 грн/550 грн</h6></li>
-                                <li><h5>Мужской педикюр:</h5> <h6>800 грн/900 грн</h6></li>
-                                <li><h5>SPA-уход Fedua (15 мин.):</h5> <h6>200 грн/200 грн</h6></li>
-                                <li><h5>Массаж рук с парафиновой свечой (15 мин.):</h5> <h6>150 грн/200 грн</h6></li>
-                                <li><h5>SPA маникюр/педикюр NMP:</h5> <h6>170 грн/170 грн</h6></li>
-                                <li><h5>SPA-уход ванночка NMP:</h5> <h6>170 грн/170 грн</h6></li>
-                                <li><h5>Наращивание 1го ногтя:</h5> <h6>100 грн/150 грн</h6></li>
-                                <li><h5>Снятие наращенных ногтей:</h5> <h6>300 грн/300 грн</h6></li>
-                                <li><h5>Укрепление ногтей гелем Catherine:</h5> <h6>300 грн/400 грн</h6></li>
-                                <li><h5>Наращивание ногтей</h5> <h6>900 грн/1100 грн</h6></li>
-                                <li><h5>Наращивание ногтей-френч:</h5> <h6>1000 грн/1300 грн</h6></li>
-                                <li><h5>Коррекция наращенных ногтей:</h5> <h6>900 грн</h6></li>
-                                <li><h5>Hard work 1:</h5> <h6>150 грн</h6></li>
-                                <li><h5>Hard work 2:</h5> <h6>250 грн</h6></li>
-                                <li><h5>Hard work 3:</h5> <h6>350 грн</h6></li>
-                            </ul>
-                        </div>
-                        <div class="price-content-items">
-                            <div class="price-content-items__nav">
-                                <h6>MAKE UP Услуги</h6>
-                                <div class="price-btn"></div>
-                            </div>
-                            <ul class="price-content-items__menu">
-                                <li class="black"><h6>Цена зависит от категории мастера: мастер / топ-мастер</h6></li>
-                                <li><h5>Легкий макияж:</h5> <h6>450 грн/600 грн</h6></li>
-                                <li><h5>Дневной макияж:</h5> <h6>650 грн/800 грн</h6></li>
-                                <li><h5>Коктейльный макияж:</h5> <h6>750 грн/900 грн</h6></li>
-                                <li><h5>Вечерний макияж:</h5> <h6>850 грн/1000 грн</h6></li>
-                                <li><h5>Моделирование бровей:</h5> <h6>300 грн/350 грн</h6></li>
-                                <li><h5>Коррекция бровей:</h5> <h6>250 грн/300 грн</h6></li>
-                                <li><h5>Коррекция бровей с помощью воска:</h5> <h6>250 грн/300 грн</h6></li>
-                                <li><h5>Покраска бровей (краска):</h5> <h6>250 грн/300 грн</h6></li>
-                                <li><h5>Покраска бровей (хна):</h5> <h6>350 грн/400 грн</h6></li>
-                                <li><h5>Долговременная укладка бровей:</h5> <h6>800 грн/900 грн</h6></li>
-                                <li><h5>Покраска ресниц:</h5> <h6>300 грн/350 грн</h6></li>
-                                <li><h5>Долговременная укладка ресниц:</h5> <h6>1000 грн/1300 грн</h6></li>
-                                <li><h5>Удаление волос с помощью воска над губой/нос/уши:</h5> <h6>150 грн/одна зона</h6></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="aboutUs">
-            <div class="aboutUs-container">
-                <div class="aboutUs-sliderFone" >
-                      <div class="aboutUs-slider">
-                        <div class="swiper mySwiper">
-                            <div class="swiper-wrapper">
-                              <div class="swiper-slide"><img src="./assets/img/slider/slide1.jpg" alt=""></div>
-                              <div class="swiper-slide"><img src="./assets/img/slider/slide2.jpg" alt=""></div>
-                              <div class="swiper-slide"><img src="./assets/img/slider/slide3.jpg" alt=""></div>
-                              <div class="swiper-slide"><img src="./assets/img/slider/slide4.jpg" alt=""></div>
+                <div class="aboutUs-container">
+                    <div class="aboutUs-sliderFone">
+                        <div class="aboutUs-slider">
+                            <div class="swiper mySwiper">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide"><img src="./assets/img/slider/slide1.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="./assets/img/slider/slide2.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="./assets/img/slider/slide3.jpg" alt=""></div>
+                                    <div class="swiper-slide"><img src="./assets/img/slider/slide4.jpg" alt=""></div>
+                                </div>
                             </div>
-                          </div>
-                      </div>
+                        </div>
+
+                    </div>
+                    <div class="aboutUs-description _anim-items _anim-no-hide">
+                        <h2>О Cалоне</h2>
+                        <p>Наш салон был создан для того, чтобы Вы выглядели ЭФФЕКТНО.</p>
+                        <p>Мы предлагаем Вам – окрашивание и стрижку любой сложности, уходовые и восстановительные
+                            процедуры для волос, укладки и прически как на Ваших волосах, так и на изделиях.</p>
+                        <p>Каждая наша услуга выполняется топовыми мастерами. Это люди, которые знают как создать
+                            атмосферу, в которую хочется возвращаться – поэтому наши клиенты становятся постоянными.
+                            Ведь если к результату добавить еще комфорт и приятную компанию – салон красоты становится
+                            незаменимым.
+                        </p>
+                        <div class="border-decore"></div>
+                        <h3 class="aboutUs-quote">I<b>Q</b>13 - это не просто салон, а целый мир!.</h3>
+                    </div>
 
                 </div>
-                <div class="aboutUs-description _anim-items _anim-no-hide">
-                    <h2>О Cалоне</h2>
-                    <p>Наш салон был создан для того, чтобы Вы выглядели ЭФФЕКТНО.</p>
-                    <p>Мы предлагаем Вам – окрашивание и стрижку любой сложности, уходовые и восстановительные процедуры для волос, укладки и прически как на Ваших волосах, так и на изделиях.</p>
-                    <p>Каждая наша услуга выполняется топовыми мастерами. Это люди, которые знают как создать атмосферу, в которую хочется возвращаться – поэтому наши клиенты становятся постоянными.
-                         Ведь если к результату добавить еще комфорт и приятную компанию – салон красоты становится незаменимым.
-                    </p>
-                    <div class="border-decore"></div>
-                    <h3 class="aboutUs-quote">I<b>Q</b>13 - это не просто салон, а целый мир!.</h3>
-                </div>
-
-            </div>
             </div>
             <div class="whyAreWe">
                 <h2>Почему I<b>Q</b>13?</h2>
-              
-               
-                 <div class="whyAreWe-content">
+
+
+                <div class="whyAreWe-content">
                     <div class="decor1"></div>
-                     <div class="whyAreWe-content-description">
+                    <div class="whyAreWe-content-description">
                         <div class="whyAreWe-content-description__item _anim-items _anim-no-hide">
                             <h4>Если уход – то только качественный.</h4>
                             <img src="./assets/svg/whyAreWe/Icon__1.svg" alt="">
@@ -397,149 +294,51 @@
                             <h4>Если красота – то только так, чтобы восхищались все вокруг</h4>
                             <img src="./assets/svg/whyAreWe/Icon__3.svg" alt="">
                         </div>
-                     </div>
-
-                 </div>
-            </div>
-        </section>
-        <section id="ourWork" class="ourWork">
-            <div class="ourWork-container">
-                    <div class="ourWork-title">
-                 <h2>Примеры наших работ:</h2>
-                 <p>Тут вы можете увидеть некоторые из наших работ.
-                    Чтобы увидеть больше – перейдите на наш профиль в Инстаграмм.
-                    Хорошая прическа облегчает жизнь, поэтому мы делаем Ваши волосы красивыми и ухоженными вне зависимости от сложности услуги, которую предоставляем.</p>
-                   </div>
-                   <div class="ourWork-slide _anim-items _anim-no-hide">
-                <div class="swiper mySwiperTwo">
-                    <div class="swiper-wrapper">
-                      <div class="swiper-slide"><img src="./assets/img/ourWork/Mask_Group-1.webp" alt=""></div>
-                      <div class="swiper-slide"><img src="./assets/img/ourWork/Mask_Group-2.webp" alt=""></div>
-                      <div class="swiper-slide"><img src="./assets/img/ourWork/Mask_Group-3.webp" alt=""></div>
-                      <div class="swiper-slide"><img src="./assets/img/ourWork/Mask_Group-4.webp" alt=""></div>
-                      <div class="swiper-slide"><img src="./assets/img/ourWork/Mask_Group-5.webp" alt=""></div>
-                      <div class="swiper-slide"><img src="./assets/img/ourWork/Mask_Group-6.jpg" alt=""></div>
                     </div>
-                  </div>
-                   </div>
-            </div>
-          <div class="ourWork-masters">
-            <div class="ourWork-title">
-                <h2>Наши мастера</h2>
-                <p>
-                    Каждый мастер, который притронется к Вашим волосам в салоне I<b>Q</b> 13 – квалифицированный специалист с опытом работы в сфере красоты. Наши мастера услышат Ваше пожелание, подскажут Вам при необходимости, и внедрят Ваши идеи в жизнь.
-                </p>
-             </div>
-             <div class="masters-container">
-                 <div class="masters-card _anim-items _anim-no-hide">
-                     <div class="masters-card__img _anim-items _anim-no-hide">
-                         <img src="./assets/img/masters/8F68239D-A421-480A-9.webp" alt="">
-                         <div class="description">
-                             <p>
-                                Мой общий парикмахерский опыт работы - 20лет, 18 из которых я работаю в компании Korol Natali с изделиями из волос ( парики, хвосты, шиньены, пряди, накладки).
-                             </p>
-                             <p>
-                                Основные виды моих услуг это: сложные и интересные окрашивания, а также прически и укладки, голливудское наращивания, установка, а также уход за системами замещения волос. Обожаю окрашивание — и это моя сильная сторона.
-                             </p>
-                             <p>
-                                Также я разрабатываю авторские техники индивидуально под каждое изделие из волос, будь то азиатский, европейский или славянский тип, имею большой опыт работы с каждым из них.
-                             </p>
-                         </div>
-                     </div>
-                     <h6>Светлана</h6>
-                     <p>Парикмахер - стилист</p>
 
-                 </div>
-                 <div class="masters-card _anim-items _anim-no-hide">
-                    <div class="masters-card__img _anim-items _anim-no-hide">
-                        <img src="./assets/img/masters/05905A51-6F8D-41E2-B.webp" alt="">
-                        <div class="description">
-                               <p>
-                                В этой профессии я, 9 лет. Имею два образования: Парикмахер-Модельер и Младший Специалист Парикмахерского Искусства и Декоративной Косметики.
-                               </p>
-                               <p>
-                                Мои достижения: <br/>
-                                - Прошла обучающий семинар " Основы колористики" от ТМ Barex Italiana. <br/>
-                                - Прошла семинар по химической завивки от Estel. <br/>
-                                - Была участницей Открытого Чемпионата Украины с Парикмахерского Искусства. <br/>
-                                - Прошла авторский семинар с обработкой на моделях " Barber Challenge Class" в Международной Школе Парикмахеров Arsen Dekusar Studio. <br/>
-                                - Прошла семинар с обработкой на моделях, по колористики, на тему " Градиентные техники окрашивания" от Estel.
-                               </p>
-                        </div>
-                    </div>
-                    <h6>Анна</h6>
-                    <p>Парикмахер-Модельер</p>
                 </div>
-             </div>
-          </div>
-         
+            </div>
         </section>
-        <section id="contacts" class="contacts">
-              <div class="contacts-container">
-                <div class="contacts-title">
-                    <h2>Контакти</h2>
-                    <p>
-                        Найдите время для себя, насладитесь процессом.
-                    </p>
-                      </div>
-                  <div class="contacts-location">
-                      <ul class="contacts-location__items">
-                          <li class="contacts-location__item">
-                             <div class="contacts-location__title">
-                                 <img src="./assets/svg/contacts/placeholder.svg" alt="">
-                                 <h3>Адрес</h3>
-                             </div>
-                             <div class="contacts-location__description">
-                                 <h4>г. Киев ул. Богдана Хмельницкого, 58 А</h4>
-                             </div>
-                               
-                          </li>
-                          <li class="contacts-location__item">
-                            <div class="contacts-location__title">
-                                <img src="./assets/svg/contacts/phone-call.svg" alt="">
-                                <h3>Телефон</h3>
-                            </div>
-                            <div class="contacts-location__description">
-                                <a href="tel:+38 098 455 75 75"><h4>+38 098 455 75 75</h4></a>
-                                <a href="tel:+38 063 715 81 21"><h4>+38 063 715 81 21</h4></a>
-                                <a href="tel:+38 098 455 75 75"><h4>+38 098 455 75 75</h4></a>
-                            </div>
-                          </li>
-                          <li class="contacts-location__item">
-                            <div class="contacts-location__title">
-                                <img src="./assets/svg/contacts/clock-2_1.svg" alt="">
-                                <h4>с 10.00 до 18.00 Без выходных</h4>
-                            </div>
-                          </li>
-                      </ul>
-
-                  </div>
-              </div>
-        </section>
-      
     </main>
 
     <footer class="footer">
-        <div class="footer-container"> 
+        <div class="footer-container">
             <div class="logo">
                 <h2>I<b>Q</b>13</h2>
             </div>
             <ul class="navmenu_footer">
-                <li class="navmenu_footer__item"><a href="#service" class="navmenu__link navmenu__link_menu">Услуги</a></li>
-                <li class="navmenu_footer__item"><a href="#price" class="navmenu__link navmenu__link_menu">Цены</a></li>
-                <li class="navmenu_footer__item"><a href="#ourWork" class="navmenu__link navmenu__link_menu">Наши работы</a></li>
-                <li class="navmenu_footer__item"><a href="#contacts" class="navmenu__link navmenu__link_menu">Контакты</a></li>
+                <li class="navmenu_footer__item"><a href="./index.html"
+                        class="navmenu__link navmenu__link_menu">Главная</a>
+                </li>
+                <li class="navmenu_footer__item"><a href="./price.html"
+                        class="navmenu__link navmenu__link_menu">Цены</a></li>
+                <li class="navmenu_footer__item"><a href="./ourWork.html" class="navmenu__link navmenu__link_menu">Наши
+                        работы</a></li>
+                <li class="navmenu_footer__item"><a href="./contacts.html"
+                        class="navmenu__link navmenu__link_menu">Контакты</a></li>
             </ul>
             <div class="social-block">
-                <div class="social-block__item"> <a class="social-block__link" href=""><img src="./assets/svg/contacts/020-telegram_1.svg" alt=""></a> </div>
-                <div class="social-block__item"> <a class="social-block__link" href=""><img src="./assets/svg/contacts/019-messenger.svg" alt=""></a></div>
-                <div class="social-block__item"> <a class="social-block__link" href=""><img src="./assets/svg/contacts/027-whatsapp.svg" alt=""></a></div>
-                <div class="social-block__item"> <a class="social-block__link" href=""><img src="./assets/svg/contacts/viber.svg" alt=""></a></div>
+                <div class="social-block__item"> <a class="social-block__link" href=""><img
+                            src="./assets/svg/contacts/020-telegram_1.svg" alt=""></a> </div>
+                <div class="social-block__item"> <a class="social-block__link" href=""><img
+                            src="./assets/svg/contacts/019-messenger.svg" alt=""></a></div>
+                <div class="social-block__item"> <a class="social-block__link" href=""><img
+                            src="./assets/svg/contacts/027-whatsapp.svg" alt=""></a></div>
+                <div class="social-block__item"> <a class="social-block__link" href=""><img
+                            src="./assets/svg/contacts/viber.svg" alt=""></a></div>
             </div>
 
         </div>
         <div class="footer-copyright">
             <div class="copyright-content">© Все права защищены</div>
+            <div class="tel-content">
+                <a class="tel-content__link" href="tel:+38 063 715 81 21">
+                    <h5>+38 063 715 81 21</h5>
+                </a>
+                <a class="tel-content__link" href="tel:+38 098 455 75 75">
+                    <h5>+38 098 455 75 75</h5>
+                </a>
+            </div>
         </div>
 
     </footer>
@@ -553,6 +352,7 @@
     <script src="./assets/script/form/activeFormHeader.js"></script>
     <script src="./assets/script/main/animation.js"></script>
     <script src="./assets/script/main/accordion.js"></script>
-    
+
 </body>
+
 </html>

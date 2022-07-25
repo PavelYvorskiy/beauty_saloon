@@ -1,21 +1,9 @@
 .header {
-  background: #2f4454;
-  display: none;
-}
-
-.headhesive {
-  background: linear-gradient(#2f4454, #1c3334), rgba(11, 29, 38, 0.8);
+  background: rgb(34, 57, 63);
   width: 100%;
   position: fixed;
   display: block;
-  transform: translateY(-110%);
-  transition: all 1s;
   z-index: 3;
-}
-
-.headhesive--stick {
-  transform: translateY(0);
-  transition: all 1s;
 }
 
 .logo {
@@ -47,10 +35,14 @@
   display: flex;
   position: relative;
 }
+.navmenu__item_sub:hover .sub-menu {
+  display: block;
+}
 .navmenu__link {
   color: #f1f1f1;
   position: relative;
   font-weight: 300;
+  cursor: pointer;
 }
 .navmenu__link_lan {
   padding: 0 4px;
@@ -73,6 +65,9 @@
   animation-fill-mode: forwards;
 }
 .navmenu__link.active {
+  color: #da7b93;
+}
+.navmenu__link:hover {
   color: #da7b93;
 }
 
@@ -114,6 +109,54 @@
   padding: 50px 0;
 }
 
+.mob-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 15px;
+  padding: 20px 10px 10px;
+  background: rgb(34, 57, 63);
+  min-width: 250px;
+}
+.sub-menu__items {
+  padding: 8px 0;
+}
+.sub-menu__items:hover .sub-menu__link {
+  color: #da7b93;
+}
+.sub-menu__link {
+  color: #f1f1f1;
+  padding: 5px 0;
+  font-weight: 100;
+}
+
+.sub-menu-mob {
+  position: relative;
+  background-color: transparent;
+}
+.sub-menu-mob__item {
+  padding: 5px 0;
+  text-align: center;
+}
+.sub-menu-mob__item:hover .sub-menu__link {
+  color: #da7b93;
+}
+.sub-menu-mob__link {
+  color: #f1f1f1;
+  padding: 5px 0;
+  font-weight: 100;
+}
+
+.mob-link {
+  color: #da7b93;
+}
+
 @media (max-width: 886px) {
   .navbar {
     justify-content: space-between;
@@ -123,7 +166,7 @@
     display: none;
   }
   .navmenu__item {
-    padding: 20px 0;
+    padding: 10px 0;
   }
 
   .navbar-mob {
