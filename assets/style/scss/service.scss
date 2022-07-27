@@ -19,6 +19,7 @@
     transform: scale(0.9);
     transition: all 0.5s ease 0.1s;
     opacity: 0;
+    margin-bottom: 40px;
     &.active{
         transform: scale(1);
         opacity: 1;
@@ -146,6 +147,8 @@
     justify-content: center;
     overflow: hidden;
     cursor: pointer;
+     position: relative;
+    
     &_1{
         grid-column: 1/4;
         grid-row: 1/5;
@@ -156,49 +159,6 @@
         &.active{
             opacity: 1;
             transform: translateX(0);
-        }
-    }
-    &_2{
-      
-        background: url(../../img/salonServices/services1.webp);
-        background-size: cover;
-        background-position: center;
-        grid-column: 4/6;
-        grid-row: 1/5;
-        transform: translateY(-50%);
-        opacity: 0;
-        transition: all 0.5s ease 0.6s;
-        &.active{
-            transform: translateY(0);
-            opacity: 1;
-        }
-    }
-    &_3{
-        grid-column: 1/3;
-        grid-row: 5/9;
-        background: url(../../img/salonServices/services2.webp);
-        background-size: cover;
-        background-position: center;
-        transform: translateY(10%);
-        transition: all 0.5s ease 0.6s;
-        opacity: 0;
-        &.active{
-            opacity: 1;
-            transform: translateY(0);
-        }
-    }
-    &_4{
-        grid-column: 3/6;
-        grid-row: 5/9;
-        background: url(../../img/salonServices/services3.webp);
-        background-size: cover;
-        background-position: center;
-        transform: translateX(50%);
-        opacity: 0;
-        transition: all 0.5s ease 0.3s;
-        &.active{
-            transform: translateX(0);
-            opacity: 1;
         }
     }
     &_5{
@@ -297,6 +257,170 @@
                     transform: translateY(0);
                 }
             }
+            &_12{
+                background:url(../../img/beauty/1642597752_4-glamours-name-p-nuzhni-modeli-na-makiyazh-devushka-krasivo-6.jpg);
+                background-size: cover;
+                background-position: center;
+                grid-column: 4/6;
+                grid-row: 1/5;
+                transform: translateY(-50%);
+                opacity: 0;
+                transition: all 0.5s ease 0.6s;
+                &.active{
+                    transform: translateY(0);
+                    opacity: 1;
+                }
+            }
+            &_13{
+                grid-column: 1/3;
+                grid-row: 5/9;
+                background: url(../../img/beauty/1647527615_33-krasavica-info-p-ukladka-dlya-zhenshchin-devushka-krasivo-f-37.jpg);
+                background-size: cover;
+                background-position: center;
+                transform: translateY(10%);
+                transition: all 0.5s ease 0.6s;
+                opacity: 0;
+                &.active{
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+            &_14{
+                background:url(../../img/beauty/ispravljanje-kose-730x548.jpg);
+                background-size: cover;
+                background-position: center;
+                grid-column: 4/6;
+                grid-row: 1/5;
+                transform: translateY(-50%);
+                opacity: 0;
+                transition: all 0.5s ease 0.6s;
+                &.active{
+                    transform: translateY(0);
+                    opacity: 1;
+                }
+            }
+            &_15{
+                grid-column: 1/3;
+                grid-row: 5/9;
+                background: url(../../img/beauty/original_5c946829f024f50b741ef67c_619479cd881b8.webp);
+                background-size: cover;
+                background-position: center;
+                transform: translateY(10%);
+                transition: all 0.5s ease 0.6s;
+                opacity: 0;
+                &.active{
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+            &_16{
+                background:url(../../img/beauty/ispravljanje-kose-730x548.jpg);
+                background-size: cover;
+                background-position: center;
+                grid-column: 4/6;
+                grid-row: 1/5;
+                transform: translateY(-50%);
+                opacity: 0;
+                transition: all 0.5s ease 0.6s;
+                &.active{
+                    transform: translateY(0);
+                    opacity: 1;
+                }
+            }
+            &_38{
+                background: url(../../img/beauty/1626948477_24-p-parikmakherskaya-krasnii-fon-27.jpg);
+                background-size: cover;
+                background-position: center;
+                grid-column: 1/6;
+                grid-row: 1/5;
+               
+                transform: translateY(-50%);
+                opacity: 0;
+                transition: all 0.5s ease 0.6s;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(90deg,#0e1111c9,#0e11117c);;
+                }
+                &.active{
+                    transform: translateY(0);
+                    opacity: 1;
+                }
+            }
+            &_39{
+                grid-column: 1/6;
+                grid-row: 5/9;
+                background: url(../../img/nail/1640695759_11-modnica-club-p-manikyur-pedikyur-makiyazh-12.jpg);
+                background-size: cover;
+                background-position: center;
+                transform: translateY(10%);
+                transition: all 0.5s ease 0.6s;
+                opacity: 0;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(270deg,#0e1111c9,#0e111168);
+                }
+                &.active{
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+            }
+            &_40{
+                grid-column:1/6;
+                grid-row: 9/13;
+                background: url(../../img/makeup/novyie-uslugi-v-sfere-krasoty.jpg);
+                background-size: cover;
+                background-position: center;
+                transform: translateX(50%);
+                opacity: 0;
+                transition: all 0.5s ease 0.3s;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(90deg,#0e1111c9,#0e11116f);
+                }
+                &.active{
+                    transform: translateX(0);
+                    opacity: 1;
+                }
+            }
+            &_41{
+                background:url(../../img/konturnaya/2b58e3c47f98650a3f5f92f3ba1ecf92.jpg);
+                background-size: cover;
+                background-position: center;
+                grid-column: 1/6;
+                grid-row: 13/17;
+                transform: translateY(50%);
+                opacity: 0;
+                transition: all 0.5s ease 0.6s;
+                position: relative;
+                &::before{
+                    content: '';
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    width: 100%;
+                    height: 100%;
+                    background: linear-gradient(270deg,#0e1111c9,#0e111179);
+                }
+                &.active{
+                    transform: translateY(0);
+                    opacity: 1;
+                }
+            }
     
     &:hover{
         .block-service-text{
@@ -343,6 +467,11 @@
     justify-content: center;
     padding: 20px 30px;
     color: rgba(255, 255, 255, 0.819);
+    z-index: 2;
+    &_rigcht{
+        align-items: flex-end;
+        text-align: end;
+    }
     &__black{
         background:#1c3334ef;
         transform: translateY(100%);
@@ -357,6 +486,7 @@
         padding: 20px 0;
         text-align: start;
         line-height: 1.5;
+        color: $pink;
         &_pink{
           h4{
             color: $pink;
@@ -420,6 +550,30 @@
         &_11{
             grid-column: 1;
             grid-row: 10/13;
+        }
+        &_12{
+            grid-column: 1;
+            grid-row: 4/7;
+        }
+        &_13{
+            grid-column: 1;
+            grid-row: 10/13;
+        }
+        &_14{
+            grid-column: 1;
+            grid-row: 4/7;
+        }
+        &_15{
+            grid-column: 1;
+            grid-row: 10/13;
+        }
+        &_16{
+            grid-column: 1;
+            grid-row: 4/7;
+        }
+        &_41{
+            grid-column: 1;
+            grid-row: 13/16;
         }
     }
     .block-text{

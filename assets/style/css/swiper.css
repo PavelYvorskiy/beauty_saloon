@@ -46,6 +46,63 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.swiper-slide__laying {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide__laying_1 {
+  background: url(../../img/beauty/bg-10.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.swiper-slide__laying_2 {
+  background: url(../../img/beauty/original_5ffe1a922688fe002f502b92_60af4e6412d3b.webp);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.swiper-slide__haircut {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide__haircut_1 {
+  background: url(../../img/beauty/1626948477_24-p-parikmakherskaya-krasnii-fon-27.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.swiper-slide__haircut_2 {
+  background: url(../../img/beauty/r_1683193_25541_kzjuakhsikgmxgns_1638513602.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.swiper-slide__coloring {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide__coloring_1 {
+  background: url(../../img/beauty/1648272343_3-krasavica-info-p-koloristika-volos-devushka-krasivo-foto-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.swiper-slide__coloring_2 {
+  background: url(../../img/beauty/1626260121_49-kartinkin-com-p-fon-dlya-parikmakherskoi-krasivo-55.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
 
 .swiper-pagination-bullet-active {
   background-color: #da7b93;
