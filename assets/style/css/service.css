@@ -326,6 +326,62 @@
   transform: translateY(0);
   opacity: 1;
 }
+.block_17 {
+  background: url(../../img/nail/1644932020_.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 4/6;
+  grid-row: 1/5;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: all 0.5s ease 0.6s;
+}
+.block_17.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+.block_18 {
+  grid-column: 1/3;
+  grid-row: 5/9;
+  background: url(../../img/nail/1652849021_1-krasavica-info-p-modnie-blestyashchie-nogti-devushka-krasiv-1.jpg);
+  background-size: cover;
+  background-position: center;
+  transform: translateY(10%);
+  transition: all 0.5s ease 0.6s;
+  opacity: 0;
+}
+.block_18.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+.block_19 {
+  background: url(../../img/makeup/novyie-uslugi-v-sfere-krasoty.jpg);
+  background-size: cover;
+  background-position: center;
+  grid-column: 4/6;
+  grid-row: 1/5;
+  transform: translateY(-50%);
+  opacity: 0;
+  transition: all 0.5s ease 0.6s;
+}
+.block_19.active {
+  transform: translateY(0);
+  opacity: 1;
+}
+.block_20 {
+  grid-column: 1/3;
+  grid-row: 5/9;
+  background: url(../../img/makeup/uslugi-v-sfere-krasotyi.jpg);
+  background-size: cover;
+  background-position: center;
+  transform: translateY(10%);
+  transition: all 0.5s ease 0.6s;
+  opacity: 0;
+}
+.block_20.active {
+  opacity: 1;
+  transform: translateY(0);
+}
 .block_38 {
   background: url(../../img/beauty/1626948477_24-p-parikmakherskaya-krasnii-fon-27.jpg);
   background-size: cover;
@@ -469,7 +525,6 @@
 .block-service-text__black {
   background: rgba(28, 51, 52, 0.937254902);
   transform: translateY(100%);
-  align-items: center;
   justify-content: center;
   transition: all 1s;
 }
@@ -491,6 +546,9 @@
 }
 .block-service-text__text b {
   color: #da7b93;
+}
+.block-service-text__text h5 {
+  padding: 10px 0;
 }
 
 @media (max-width: 960px) {
@@ -559,6 +617,22 @@
     grid-row: 10/13;
   }
   .block_16 {
+    grid-column: 1;
+    grid-row: 4/7;
+  }
+  .block_17 {
+    grid-column: 1;
+    grid-row: 10/13;
+  }
+  .block_18 {
+    grid-column: 1;
+    grid-row: 4/7;
+  }
+  .block_19 {
+    grid-column: 1;
+    grid-row: 10/13;
+  }
+  .block_20 {
     grid-column: 1;
     grid-row: 4/7;
   }

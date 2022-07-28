@@ -102,6 +102,63 @@
         background-position: center;
       }
     }
+    &__recovery{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+      height: 100%;
+      &_1{
+        background: url(../../img/beauty/sd_5_5.jpg);  
+        background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      }
+      &_2{
+        background: url(../../img/beauty/1626260121_49-kartinkin-com-p-fon-dlya-parikmakherskoi-krasivo-55.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+    &__nail{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+      height: 100%;
+      &_1{
+        background: url(../../img/nail/1453137104_glav.jpg);  
+        background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      }
+      &_2{
+        background: url(../../img/nail/1640695759_11-modnica-club-p-manikyur-pedikyur-makiyazh-12.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
+    &__makeUp{
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      width: 100%;
+      height: 100%;
+      &_1{
+        background: url(../../img/makeup/1641144744_70-modnica-club-p-manikyur-pedikyur-pricheska-84.jpg);  
+        background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      }
+      &_2{
+        background: url(../../img/makeup/salon_krasoty_biznes.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+    }
   }
   .swiper-pagination-bullet-active{
     background-color: #da7b93;
