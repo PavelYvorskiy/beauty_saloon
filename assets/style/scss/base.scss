@@ -126,9 +126,9 @@ h5{
 h6{
   @include adaptive-font(18,16 )
 }
-span{
-  @include adaptive-font(40,20 )
-}
+// span{
+//   @include adaptive-font(40,20 )
+// }
 p{
   @include adaptive-font(14,12 );
   font-family: 'PT Sans', sans-serif;

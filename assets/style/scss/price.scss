@@ -81,6 +81,11 @@
         transform: scale(1);
         opacity: 1;
     }
+    &__dark{
+        h2{
+            color: #465b5c;
+        }
+    }
 }
 .price-content{
     width: 100%;

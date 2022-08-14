@@ -78,6 +78,9 @@
   transform: scale(1);
   opacity: 1;
 }
+.price-container-title__dark h2 {
+  color: #465b5c;
+}
 
 .price-content {
   width: 100%;

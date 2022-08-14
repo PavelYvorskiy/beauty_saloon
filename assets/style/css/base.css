@@ -160,17 +160,6 @@ section {
   }
 }
 
-@media (max-width: 767px) {
-  span {
-    font-size: calc(20px + 34 * ((100vw - 320px) / 1280));
-  }
-}
-@media (min-width: 767px) {
-  span {
-    font-size: calc(20px + 20 * (100vw / 1280));
-  }
-}
-
 p {
   font-family: "PT Sans", sans-serif;
   font-weight: 100;
